@@ -107,6 +107,10 @@
         margin: auto;
     }   
 
+    .li{
+        margin-right: 50px;
+    }
+
     @media only screen and (max-width: 800px) {
         .content_wrapper div{
             width: 100%;
@@ -131,6 +135,10 @@
         .link{
             font-size: 1em;
         }
+        .li{
+            margin-left: 10px;
+            margin-right: 0px;
+        }
     }
 </style>
 <body>
@@ -142,10 +150,10 @@
             <li style="transform: translateY(-15px);">
                 <div style="width: 100px;"></div>
             </li>
-            <li height="45px" style="transform: translateY(17px); float: right; margin-right: 50px;">
+            <li height="45px" style="transform: translateY(17px); float: right;" class="li">
                 <a class="link" href="/downloads">Downloads</a>
             </li>
-            <li height="45px" style="transform: translateY(17px); float: right; margin-right: 50px;">
+            <li height="45px" style="transform: translateY(17px); float: right;" class="li">
                 <a class="link" href="/">Home</a>
             </li>
         </ul>
